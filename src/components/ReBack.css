@@ -1,0 +1,68 @@
+.review-form {
+    display: flex;
+    flex-direction: column;
+    /*
+    padding: 50px;
+    */
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    align-items: center;
+}
+
+#cmt {
+    font-size: 18px;
+}
+
+#comment {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 10px;
+    color: #ff0707;
+}
+
+#inpt {
+    position: absolute;
+    opacity: 0;
+    top: 70px;
+    left: 235px;
+}
+
+.FaStar {
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+.red{
+    color: #ff0707;
+    font-weight: bold;
+}
+
+.stars svg:hover {
+    fill: #ff0707;
+    cursor: pointer;
+}
+
+
+
+/*
+.stars input:checked~svg {
+    fill: #efff0c
+}
+*/

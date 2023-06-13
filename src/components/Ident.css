@@ -1,0 +1,99 @@
+/*== IDENT ==*/
+html {/*
+    background-image: linear-gradient(to right, rgb(54, 24, 24), rgb(250, 249, 249), rgb(58, 30, 30));
+    */
+    background-image: linear-gradient(to right, rgb(190, 190, 190), rgb(250, 249, 249), rgb(190, 190, 190));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    /*
+    background-color: rgb(218, 164, 173);
+    */
+
+
+
+}
+
+.app h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.main {
+    /*
+    padding: 50px 100px 50px 100px;
+    */
+    border-radius: 8px;
+    color: black;
+    border-top: 1px solid gray;
+}
+
+.p {
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.act {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn {
+    gap: 1px;
+    color: #ffffff;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(138, 18, 38), rgb(31, 24, 24), rgb(138, 18, 38));
+    padding: 10px 40px;
+    margin: 30px;
+    border: none;
+    border: 1px solid gray;
+    box-shadow: rgba(255, 255, 255, 0.247) 0px 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: none;
+    background-image: linear-gradient(to right, rgb(31, 24, 24), rgb(138, 18, 38), rgb(31, 24, 24));
+}
+
+.Seu-nome {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#name,
+#email {
+    width: 320px;
+    padding: 8px 5px;
+    border: none;
+    color: #ff0707;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
