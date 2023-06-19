@@ -1,4 +1,4 @@
-.steps{
+.steps {
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -7,8 +7,7 @@
     margin-top: 20px;
 }
 
-
-.steps::after{
+.steps::after {
     content: "";
     width: 300px;
     border-bottom: 1px solid gray;
@@ -16,7 +15,7 @@
     top: 20px;
 }
 
-.step{
+.step {
     text-align: center;
     z-index: 1;
     background-color: #fff;
@@ -25,17 +24,26 @@
     padding: 10px;
 }
 
-.step svg{
+.step svg {
     font-size: 1.6rem;
     margin-bottom: .2rem;
 }
 
-.active{
+.active {
     font-weight: bold;
-   color: black;
+    color: black;
 }
 
-.active > svg{
+.active>svg {
     fill: #ff0707;
-   
+
 }
+
+
+@media screen and (max-width: 815px) {
+    .steps {
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 435px) {}

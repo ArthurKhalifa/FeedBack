@@ -5,12 +5,55 @@
     box-sizing: border-box;
 }
 
+html {
+    background-image: linear-gradient(to right, rgb(190, 190, 190), rgb(250, 249, 249), rgb(190, 190, 190));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .form-main {
     background-color: #fff;
     width: 800px;
+    height: 100%;
     min-height: 450px;
     border: 1px solid #ff0707;
     border-radius: 5px;
     color: black;
     box-shadow: rgba(240, 46, 46, 0.4) -5px 5px, rgba(240, 46, 46, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+@media screen and (max-width: 815px) {
+    .form-main {
+        width: 100%;
+    }
+
+    .app {
+        width: 100vw;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .app {
+        width: 96vw;
+    }
+
+    .form-main {
+        width: 96vw;
+
+    }
+
+
 }

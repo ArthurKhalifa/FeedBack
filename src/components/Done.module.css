@@ -1,0 +1,15 @@
+#ty {
+     width: 800px;
+}
+
+.cacete {
+     color: red;
+}
+
+.main {
+     background-color: greenyellow;
+}
+
+.act {
+     display: none;
+}

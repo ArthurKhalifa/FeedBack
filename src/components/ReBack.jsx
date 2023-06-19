@@ -15,8 +15,8 @@ const ReBack = ({ data, updateFieldHandler }) => {
                 {[...Array(5)].map((star, i) => {
                     const ratingValue = i + 1;
                     return (
-                        <label>
-                            <input type="radio" name="review" id='inpt'
+                        <label aria-required>
+                            <input type="radio" name="review" id='inpt' req
                                 value={ratingValue} onClick={() => {
                                     setRating(ratingValue);
                                     updateFieldHandler("review", ratingValue);
@@ -36,7 +36,7 @@ const ReBack = ({ data, updateFieldHandler }) => {
             <div className="comentario">
                 <label htmlFor="comment" id='cmt'>Comentário</label>
                 <textarea name="comment" id="comment" cols="50" rows="5"
-                    placeholder='Conte-nos o que mais te agradou no produto'
+                    placeholder='(Opicional) Conte-nos sua experiência com o produto'
                     value={data.comment || ""}
                     onChange={(e) => updateFieldHandler("comment", e.target.value)}>
                 </textarea>

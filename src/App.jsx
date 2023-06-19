@@ -1,6 +1,5 @@
 
 // Componentes
-import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
 import Ident from './components/Ident';
 import ReBack from './components/ReBack';
 import TheEnd from './components/TheEnd';

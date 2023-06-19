@@ -60,9 +60,8 @@
 }
 
 
-
-/*
-.stars input:checked~svg {
-    fill: #efff0c
+@media screen and (max-width: 435px) {
+    svg.star{
+        width: 60px;
+    }
 }
-*/

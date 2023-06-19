@@ -1,13 +1,4 @@
 /*== IDENT ==*/
-html {/*
-    background-image: linear-gradient(to right, rgb(54, 24, 24), rgb(250, 249, 249), rgb(58, 30, 30));
-    */
-    background-image: linear-gradient(to right, rgb(190, 190, 190), rgb(250, 249, 249), rgb(190, 190, 190));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-}
 
 .app {
     width: 100%;
@@ -21,9 +12,6 @@ html {/*
     /*
     background-color: rgb(218, 164, 173);
     */
-
-
-
 }
 
 .app h1 {
@@ -32,9 +20,6 @@ html {/*
 }
 
 .main {
-    /*
-    padding: 50px 100px 50px 100px;
-    */
     border-radius: 8px;
     color: black;
     border-top: 1px solid gray;
@@ -96,4 +81,29 @@ label {
     color: #ff0707;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width: 815px) {}
+
+@media screen and (max-width: 435px) {
+    .Seu-nome {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #name,
+    #email {
+        width: 80%;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .btn-div {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
 }
